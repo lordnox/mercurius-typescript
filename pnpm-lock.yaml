@@ -129,7 +129,7 @@ importers:
       '@graphql-codegen/typescript': ^2.2.2
       '@graphql-codegen/typescript-operations': ^2.1.4
       '@graphql-codegen/typescript-resolvers': ^2.2.1
-      '@graphql-tools/load-files': ^6.4.0
+      '@graphql-tools/load-files': ^6.5.0
       '@graphql-tools/utils': ^8.2.3
       '@graphql-typed-document-node/core': ^3.1.0
       '@istanbuljs/nyc-config-typescript': ^1.0.1
@@ -166,7 +166,7 @@ importers:
       '@graphql-codegen/typescript': 2.2.2_graphql@15.6.0
       '@graphql-codegen/typescript-operations': 2.1.4_graphql@15.6.0
       '@graphql-codegen/typescript-resolvers': 2.2.1_graphql@15.6.0
-      '@graphql-tools/load-files': 6.4.0_graphql@15.6.0
+      '@graphql-tools/load-files': 6.5.0_graphql@15.6.0
       '@graphql-tools/utils': 8.2.3_graphql@15.6.0
       '@graphql-typed-document-node/core': 3.1.0_graphql@15.6.0
       chokidar: 3.5.2
@@ -845,6 +845,17 @@ packages:
 
   /@graphql-tools/load-files/6.4.0_graphql@15.6.0:
     resolution: {integrity: sha512-Dl/3mhFDXWRHhEyVY0nABw+yOFcxfU0iKsLrX0E/wlTiqHRQJORGmxLFRbSGpwcP694dvpujsp/SCt+qz//PkA==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      globby: 11.0.4
+      graphql: 15.6.0
+      tslib: 2.3.1
+      unixify: 1.0.0
+    dev: false
+
+  /@graphql-tools/load-files/6.5.0_graphql@15.6.0:
+    resolution: {integrity: sha512-/Q4Mrnv8QdJ+5dUKTAAW/pqsNengBJvA8FluwUXNTpx2D4X6/bDIAHef0xpNzSSEO4zFnRy5hi9sCEYvFvFIdA==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
